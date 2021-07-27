@@ -1,0 +1,188 @@
+.wrapper__header {
+  max-width: 360px;
+  margin: 0 auto;
+  background: url(/img/Virna_oblojka_home.svg) no-repeat;
+  position: relative;
+}
+
+.content__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  height: 457px;
+  background: #FFFFFF;
+  opacity: 0.9;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 768px) {
+  .wrapper__header {
+    max-width: 768px;
+    background: url(/img/Virna_oblojka_home_768p.svg);
+  }
+
+  .content__header {
+    width: 50%;
+  }
+
+  .logo__bonum {
+    margin-left: 45px;
+  }
+}
+/*VIRNA*/
+.virna {
+  margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .virna {
+    margin-left: 40px;
+  }
+}
+.virna__logo {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.ukrainian {
+  max-width: 290px;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 100%;
+  /* or 42px */
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+  .ukrainian {
+    font-size: 45px;
+  }
+}
+.of__womens {
+  width: 70px;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
+  color: #000000;
+  text-align: right;
+  float: left;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+/*VIRNA*/
+/*ICON HEADER*/
+.burger__header {
+  margin-right: 18px;
+}
+
+.icon__header {
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: 10px;
+  left: 10px;
+}
+
+.nav__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon__style {
+  list-style: none;
+  padding-left: 18px;
+}
+
+/*ICON HEADER*/
+/*RIGHT HEADER*/
+.right__saydbar {
+  position: absolute;
+  right: 0;
+  background: #FFFFFF;
+  width: 20%;
+  height: 457px;
+}
+
+@media (min-width: 768px) {
+  .right__saydbar {
+    width: 20%;
+  }
+}
+.logo__bonum {
+  margin-top: 31px;
+  padding-left: 9px;
+  margin-bottom: 102px;
+}
+
+.right__online-st {
+  width: 79px;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  margin-left: 10px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-bottom: 141px;
+}
+
+@media (min-width: 768px) {
+  .right__online-st {
+    margin-left: 70px;
+  }
+}
+.right__year {
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-left: 30px;
+}
+
+@media (min-width: 768px) {
+  .right__year {
+    margin-left: 70px;
+  }
+}
+.language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 31px;
+}
+
+.language__set {
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  margin-right: 3px;
+}
+
+/*RIGHT HEADER*/

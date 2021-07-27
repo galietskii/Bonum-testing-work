@@ -1,0 +1,112 @@
+.colors {
+    margin-top: 50px;
+}
+
+.wrapper__colors {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.header__colors {
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.under__header-text {
+    margin: 0 auto;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 132.4%;
+    color: #292929;
+    max-width: 270px;
+    margin-bottom: 100px;
+}
+
+.dark {
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    float: left;
+    transform: rotate(-90deg);
+    margin-bottom: 70px;
+}
+
+@media(min-width:768px) {
+    .wrapper__colors {
+        max-width: 768px;
+    }
+    .header__colors {
+        text-align: center;
+    }
+    .colors__text {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .under__header-text {
+        margin: 0;
+        max-width: 289px;
+    }
+    .dark {
+        font-family: Cera Pro;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+}
+
+@media(min-width:960px) {
+    .wrapper__colors {
+        max-width: 770px;
+        margin: 0 auto;
+    }
+    .under__header-text {
+        font-size: 13px;
+    }
+    .header__colors {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+@media(min-width:1440px) {
+    .wrapper__colors {
+        max-width: 1410px;
+        margin: 0 auto;
+    }
+    .colors__text {
+        align-items: center;
+    }
+}
+
+@media(min-width:1921px) {
+    .wrapper__colors {
+        max-width: 1440px;
+        margin: 0 auto;
+        align-items: center;
+    }
+}
+
+@media(min-width:1921px) {
+    .under__header-text {
+        margin-right: 370px;
+    }
+}

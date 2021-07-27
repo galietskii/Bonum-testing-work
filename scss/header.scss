@@ -1,0 +1,271 @@
+    .wrapper__header {
+        max-width: 360px;
+        margin: 0 auto;
+        background: url(/img/Virna_oblojka_home.svg) no-repeat;
+        position: relative;
+    }
+    
+    .content__header {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        height: 457px;
+        background: #FFFFFF;
+        opacity: 0.9;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    @media(min-width:768px) {
+        .wrapper__header {
+            max-width: 768px;
+            background: url(/img/Virna_oblojka_home_768p.svg);
+        }
+        .content__header {
+            width: 50%;
+        }
+        .logo__bonum {
+            margin-left: 45px;
+        }
+    }
+    
+    @media(min-width:960px) {
+        .wrapper__header {
+            max-width: 960px;
+            background: url(/img/Virna_oblojka_home_960p.svg);
+        }
+    }
+    
+    @media(min-width:1440px) {
+        .wrapper__header {
+            max-width: 1448px;
+            background: url(/img/Virna_oblojka_home_1440p.svg);
+            height: 802px;
+        }
+        .content__header {
+            height: 100%;
+        }
+    }
+    
+    @media(min-width:1921px) {
+        .wrapper__header {
+            max-width: 1920px;
+            background: url(/img/Virna_oblojka_home_1921p.svg) no-repeat center;
+            height: 1055px;
+        }
+    }
+    /*VIRNA*/
+    
+    .virna {
+        margin-left: 10px;
+    }
+    
+    @media(min-width:768px) {
+        .virna {
+            margin-left: 40px;
+        }
+    }
+    
+    .virna__logo {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    
+    @media(min-width:1440px) {
+        .virna__logo {
+            margin-bottom: 152px;
+        }
+    }
+    
+    .ukrainian {
+        max-width: 290px;
+        font-family: Cera Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 100%;
+        /* or 42px */
+        letter-spacing: 0.02em;
+        color: #000000;
+        margin-bottom: 80px;
+    }
+    
+    @media(min-width:768px) {
+        .ukrainian {
+            font-size: 45px;
+        }
+    }
+    
+    @media(min-width:1440px) {
+        .ukrainian {
+            font-size: 71.7568px;
+            line-height: 100%;
+            letter-spacing: 0.02em;
+        }
+    }
+    
+    .of__womens {
+        width: 70px;
+        font-family: Cera Pro;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 100%;
+        color: #000000;
+        text-align: right;
+        float: left;
+        transform: rotate(-90deg);
+    }
+    /*VIRNA*/
+    /*ICON HEADER*/
+    
+    .burger__header {
+        margin-right: 18px;
+    }
+    
+    .icon__header {
+        position: absolute;
+        align-items: center;
+        display: flex;
+        bottom: 10px;
+        left: 10px;
+    }
+    
+    @media(min-width:768px) {
+        .icon__header {
+            left: 40px;
+        }
+    }
+    
+    .nav__icon {
+        display: flex;
+    }
+    
+    .icon__style {
+        list-style: none;
+        padding-left: 18px;
+    }
+    /*ICON HEADER*/
+    /*RIGHT HEADER*/
+    
+    .right__sidebar {
+        position: absolute;
+        right: 0;
+        background: #FFFFFF;
+        width: 20%;
+        height: 457px;
+    }
+    
+    @media(min-width:768px) {
+        .right__sidebar {
+            width: 20%;
+        }
+    }
+    
+    @media(min-width:1440px) {
+        .right__sidebar {
+            height: 100%;
+        }
+    }
+    
+    .logo__bonum {
+        margin-top: 31px;
+        padding-left: 9px;
+        margin-bottom: 102px;
+    }
+    
+    .right__online-st {
+        width: 79px;
+        font-family: Cera Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        margin-left: 10px;
+        transform: rotate(90deg);
+        margin-bottom: 141px;
+    }
+    
+    .right__year {
+        font-family: Cera Pro;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        transform: rotate(90deg);
+        margin-left: 30px;
+    }
+    
+    @media(min-width:768px) {
+        .right__online-st {
+            margin-left: 70px;
+        }
+    }
+    
+    @media(min-width:960px) {
+        .right__online-st {
+            margin-left: 90px;
+        }
+        .logo__bonum {
+            margin-left: 70px;
+        }
+    }
+    
+    @media(min-width:1440px) {
+        .logo__bonum {
+            margin-bottom: 240px;
+        }
+        .right__online-st {
+            margin-left: 140px;
+        }
+        .right__year {
+            font-family: Cera Pro;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            color: #000000;
+            transform: rotate(90deg);
+            margin-left: 30px;
+            margin-bottom: 300px;
+        }
+    }
+    
+    @media(min-width:768px) {
+        .right__year {
+            margin-left: 70px;
+        }
+    }
+    
+    @media(min-width:1921px) {
+        .right__online-st {
+            margin-left: 188px;
+            margin-bottom: 190px
+        }
+    }
+    
+    .language {
+        display: flex;
+        margin-top: 100px;
+        margin-left: 31px;
+    }
+    
+    .language__set {
+        font-family: Cera Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        margin-right: 3px;
+    }
+    
+    @media(min-width:1921px) {
+        .language {
+            margin-top: 520px;
+        }
+    }
+    
+    @media(min-width:1440px) {}
+    /*RIGHT HEADER*/

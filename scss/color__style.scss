@@ -1,0 +1,153 @@
+.wrapper__color-style {
+    max-width: 320px;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+.header__color-style {
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+    margin-left: 30px;
+}
+
+.color__style-text {
+    width: 270px;
+}
+
+.some__text {
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+    text-align: right;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.card__color {
+    max-width: 310px;
+    margin: 0px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 100px);
+}
+
+.color__one {
+    grid-column: 3;
+    grid-row: 1;
+    width: 150px;
+}
+
+.color__2colum {
+    grid-column: 2;
+    grid-row: 3;
+    width: 70px;
+    margin-right: 20px;
+}
+
+.color__2colum_2el {
+    grid-column: 3;
+    grid-row: 3;
+    width: 70px;
+}
+
+.color_3colum {
+    width: 70px;
+    grid-column: 3;
+    grid-row: 4;
+    margin-left: 60px;
+}
+
+.color__5colum {
+    width: 70px;
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.color__6colum {
+    width: 70px;
+    grid-column: 2;
+    grid-row: 6;
+    margin-right: 20px;
+}
+
+.black__6colum {
+    width: 70px;
+    grid-column: 3;
+    grid-row: 6;
+}
+
+.bright {
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(-90deg);
+    grid-column: 5;
+    grid-row: 6;
+}
+
+@media(min-width:768px) {
+    .wrapper__color-style {
+        max-width: 750px;
+    }
+    .card__color {
+        max-width: 690px;
+        margin: 0 auto;
+    }
+    .color__one {
+        grid-column: 5;
+    }
+    .color__2colum {
+        grid-column: 4;
+        grid-row: 4;
+    }
+    .color_3colum {
+        grid-column: 5;
+    }
+    .bright {
+        margin-left: 150px;
+    }
+}
+
+@media(min-width:960px) {
+    .wrapper__color-style {
+        max-width: 960px;
+    }
+    .card__color {
+        max-width: 960px;
+    }
+}
+
+@media(min-width:1440px) {
+    .wrapper__color-style {
+        max-width: 1141px;
+        margin: 0 auto;
+    }
+    .card__color {
+        margin: 0 auto;
+    }
+    .color__one {
+        width: 210px;
+    }
+}
+
+@media(min-width:1921px) {
+    .card__color {
+        width: 1440px;
+    }
+    .color__one {
+        width: 280px;
+    }
+}
